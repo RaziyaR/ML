@@ -9,6 +9,7 @@ You are required to model the price of cars with the available independent varia
 Tasks performed-
 
 1.Loaded the carprice dataset and performed necessary preprocessing steps.
+
 2.Model Implementation
   Implemented the following five regression algorithms:
 
