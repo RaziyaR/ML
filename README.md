@@ -1,6 +1,6 @@
 **ML-Module-end-project**
 
-Car Price Prediction using Machine Learning
+**Car Price Prediction using Machine Learning**
 
 Project Overview
 
@@ -24,15 +24,16 @@ Model Implementation:
 
 Trained the following regression models:
 
-Linear Regression
+1.Linear Regression
 
-Decision Tree Regressor
+2.Decision Tree Regressor
 
-Random Forest Regressor
+3.Random Forest Regressor
 
-Gradient Boosting Regressor
+4.Gradient Boosting Regressor
 
-Support Vector Regressor
+5.Support Vector Regressor
+
 
 Model Evaluation:
 
@@ -40,13 +41,16 @@ Compared models based on R², Mean Squared Error (MSE), and Mean Absolute Error 
 
 Identified the best-performing model
 
+
 Feature Importance Analysis:
 
 Identified key variables that significantly impact car prices
 
+
 Hyperparameter Tuning:
 
 Optimized model performance using GridSearchCV/RandomizedSearchCV
+
 
 Conclusion
 
@@ -54,15 +58,18 @@ The project successfully implemented and evaluated multiple regression models to
 
 This model can assist the company in making data-driven decisions regarding car manufacturing, pricing strategies, and feature optimization to ensure competitive positioning in the US market.
 
+
 Submission
 
 The Jupyter Notebook containing the implementation is available on GitHub.
 
 Dataset link: [https://drive.google.com/file/d/1FHmYNLs9v0Enc-UExEMpitOFGsWvB2dP/view?usp=drive_link]
 
-Repository link: []
+Repository link: [https://github.com/RaziyaR/ML]
 
 
 📌 Author: Raziya Firosh
+
 📌 Course: Data Science & Machine Learning Module End Project
+
 📌 Submission: March 2025
