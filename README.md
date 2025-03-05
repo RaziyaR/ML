@@ -14,9 +14,13 @@ Tasks performed-
   Implemented the following five regression algorithms:
 
   1.Linear Regression
+  
   2.Decision Tree Regressor
+  
   3.Random Forest Regressor
+  
   4.Gradient Boosting Regressor
+  
   5.Support Vector Regressor
 
 3.Model Evaluation ● Compared the performance of all the models based on R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE). ● Identified the best performing model and justified the reason.
