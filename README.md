@@ -1,30 +1,68 @@
 **ML-Module-end-project**
 
-This project is based on a Chinese automobile company aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts. They have contracted an automobile consulting company to understand the factors on which the pricing of cars depends. Specifically, they want to understand the factors affecting the pricing of cars in the American market, since those may be very different from the Chinese market. Essentially, the company wants to know: ● Which variables are significant in predicting the price of a car ● How well those variables describe the price of a car Based on various market surveys, the consulting firm has gathered a large dataset of different types of cars across the American market.
+Car Price Prediction using Machine Learning
 
-Business Goal:
+Project Overview
 
-You are required to model the price of cars with the available independent variables. It will be used by the management to understand how exactly the prices vary with the independent variables. They can accordingly manipulate the design of the cars, the business strategy etc. to meet certain price levels. Further, the model will be a good way for the management to understand the pricing dynamics of a new market.
+This project aims to build a predictive model to determine car prices based on various features. A Chinese automobile company planning to enter the US market has commissioned an automobile consulting firm to analyze the factors affecting car pricing. Using machine learning regression models, this project provides insights into price determinants and helps the company strategize product designs and business operations.
 
-Tasks performed-
+Dataset
 
-1.Loaded the carprice dataset and performed necessary preprocessing steps.
+The dataset consists of various car attributes, including engine specifications, body type, mileage, and other critical factors influencing pricing. The data has been preprocessed and used for model training and evaluation.
 
-2.Model Implementation
-  Implemented the following five regression algorithms:
+Key Steps in the Project
 
-  1.Linear Regression
-  
-  2.Decision Tree Regressor
-  
-  3.Random Forest Regressor
-  
-  4.Gradient Boosting Regressor
-  
-  5.Support Vector Regressor
+1.Data Loading and Preprocessing:
 
-3.Model Evaluation ● Compared the performance of all the models based on R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE). ● Identified the best performing model and justified the reason.
+2.Handled missing values and outliers
 
-4.Feature Importance Analysis ● Identified the significant variables affecting car prices (feature selection)
+3.Encoded categorical variables
 
-5.Hyperparameter Tuning ● Performed hyperparameter tuning and checked the performance of the model has increased.
+4.Scaled numerical features where necessary
+
+Model Implementation:
+
+Trained the following regression models:
+
+Linear Regression
+
+Decision Tree Regressor
+
+Random Forest Regressor
+
+Gradient Boosting Regressor
+
+Support Vector Regressor
+
+Model Evaluation:
+
+Compared models based on R², Mean Squared Error (MSE), and Mean Absolute Error (MAE)
+
+Identified the best-performing model
+
+Feature Importance Analysis:
+
+Identified key variables that significantly impact car prices
+
+Hyperparameter Tuning:
+
+Optimized model performance using GridSearchCV/RandomizedSearchCV
+
+Conclusion
+
+The project successfully implemented and evaluated multiple regression models to predict car prices. The analysis showed that ensemble models like Random Forest Regressor and Gradient Boosting Regressor outperformed others in terms of accuracy and error metrics. Feature importance analysis provided valuable insights into the most influential factors affecting car pricing, helping the company understand the market dynamics better. Hyperparameter tuning further improved model performance, making the predictions more reliable.
+
+This model can assist the company in making data-driven decisions regarding car manufacturing, pricing strategies, and feature optimization to ensure competitive positioning in the US market.
+
+Submission
+
+The Jupyter Notebook containing the implementation is available on GitHub.
+
+Dataset link: [https://drive.google.com/file/d/1FHmYNLs9v0Enc-UExEMpitOFGsWvB2dP/view?usp=drive_link]
+
+Repository link: []
+
+
+📌 Author: Raziya Firosh
+📌 Course: Data Science & Machine Learning Module End Project
+📌 Submission: March 2025
